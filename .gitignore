@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.*
+
+# SQLite database
+*.db
+
+# Build / metadata
+build/
+*.egg-info/
+
+# OS files
+.DS_Store
