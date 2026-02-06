@@ -1,17 +1,28 @@
 # Python
 __pycache__/
 *.pyc
-
-# Environment variables
-.env
-.env.*
+*.pyo
+*.pyd
+*.env
+*.venv
+.python-version
 
 # SQLite database
 *.db
 
 # Build / metadata
 build/
+dist/
 *.egg-info/
+pyproject.toml.lock
+uv.lock
 
 # OS files
 .DS_Store
+
+# PyCharm / IDE
+.idea/
+*.iml
+
+# VS Code (optional if you use it)
+.vscode/
